@@ -12,4 +12,4 @@ To run the server just use "npm start" command.
 
 ## Authors
 
-- [@maaz](https://github.com/maaz64)
+- [@Shaikhrafey](https://github.com/Shaikhrafey)
