@@ -1,0 +1,48 @@
+.album{
+    margin:15px;
+    width:10vw;
+    height: 20vh;
+    border:5px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.album:hover{    
+    border:5px solid #07f;
+}
+
+
+
+.albumImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.album span{
+    background-color: #eee;
+    font-size: 1.1rem;
+    font-weight: 700;
+    justify-self: baseline;
+    padding-block: 5px;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.album:hover span{
+    background-color: #07f;
+    transform: 0.3s;
+    color: white;
+} 
+
+.albumImg img{
+ width: 50px;
+ height: 50px;
+}
+
